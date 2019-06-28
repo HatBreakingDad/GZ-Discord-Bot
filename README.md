@@ -14,8 +14,8 @@ Syntax
 | {} | Integer Input |
 | () | String Input |
 
-| Command | Arguments | Functionality |
-| ------------- | ------------- | |
+| Command  | Arguments  | Functionality  |
+| ------------- | ------------- | ------------- |
 | kick | <target> | Kicks target from the guild |
 | vckick | <target> | Kicks target out of voice chat |
 | ban | <target> (reason) | Bans target |
