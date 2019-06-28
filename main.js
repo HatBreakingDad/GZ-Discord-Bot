@@ -1,5 +1,3 @@
-//592343114543267840
-
 var Discord = require("discord.js");
 var client = new Discord.Client();
 var config = require("./config.json");
