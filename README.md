@@ -9,22 +9,22 @@ Syntax
 
 | Symbol  | Meaning |
 | ------------- | ------------- |
-| <> | User |
+| -- | User |
 | [] | Channel |
 | {} | Integer Input |
 | () | String Input |
 
 | Command  | Arguments  | Functionality  |
 | ------------- | ------------- | ------------- |
-| kick | <target> | Kicks target from the guild |
-| vckick | <target> | Kicks target out of voice chat |
-| ban | <target> (reason) | Bans target |
-| unban | <target> (reason) | Unbans target |
+| kick | -target- | Kicks target from the guild |
+| vckick | -target- | Kicks target out of voice chat |
+| ban | -target- (reason) | Bans target |
+| unban | -target- (reason) | Unbans target |
 | purge | [channel] {amount} (reason) | Deletes amount of messages from channel |
 | nuke | [channel] (reason) | Deletes and then creates channel with same properties as original  |
-| clear | <target> [channel] (reason) | Deletes 100 messages from user in specified channel |
-| mute | Content Cell | Mutes user in text channel |
-| unmute | Content Cell | Unmutes user in text channel |
+| clear | -target- [channel] (reason) | Deletes 100 messages from user in specified channel |
+| mute | -target- (reason) | Mutes user in text channel |
+| unmute | -target- (reason) | Unmutes user in text channel |
 
 **Required Permissions / Roles (8 or 432221366)**
 Administrator
