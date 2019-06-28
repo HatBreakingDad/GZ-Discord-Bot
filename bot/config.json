@@ -1,0 +1,6 @@
+{
+    "token": "example-token",
+    "prefix": "!",
+    "maxPurge": 100,
+    "log": "log-channel-name-goes-here"
+}
