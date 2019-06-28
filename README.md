@@ -1,10 +1,14 @@
 # GZ-Discord-Bot
 Discord moderation bot for Discord Hack Week
+
 **Information**
+
 Language: NodeJS
+
 API Wrapper: Discord.JS
 
 **Commands**
+
 Syntax
 
 | Symbol  | Meaning |
@@ -13,6 +17,7 @@ Syntax
 | [] | Channel |
 | {} | Integer Input |
 | () | String Input |
+
 
 | Command  | Arguments  | Functionality  |
 | ------------- | ------------- | ------------- |
@@ -27,20 +32,36 @@ Syntax
 | unmute | -target- (reason) | Unmutes user in text channel |
 
 **Required Permissions / Roles (8 or 432221366)**
+
 Administrator
+
 View audit log
+
 Manage server
+
 Manage roles
+
 Manage channels
+
 Kick members
+
 Ban members
+
 Manage nicknames
+
 View channels
+
 Send messages
+
 Manage messages
+
 Read message history
+
 Mention everyone
+
 Mute members
+
 Deafen members
+
 Use members
 
