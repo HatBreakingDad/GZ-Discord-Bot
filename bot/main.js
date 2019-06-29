@@ -10,8 +10,8 @@ client.on("ready", () => {
     client.user.setPresence({
         status: "online",
         game: {
-            type: "PLAYING",
-            name: "Idiots"
+            type: "WATCHING",
+            name: "This Guild"
         }
     });
 });
