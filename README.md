@@ -30,6 +30,7 @@ Syntax
 | clear | -target- [channel] (reason) | Deletes 100 messages from user in specified channel |
 | mute | -target- (reason) | Mutes user in text channel |
 | unmute | -target- (reason) | Unmutes user in text channel |
+| config-log | [channel] | Changes the audit-log to which the bot outputs its commands |
 
 **Required Permissions / Roles (8 or 432221366)**
 
