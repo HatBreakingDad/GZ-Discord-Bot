@@ -26,18 +26,21 @@ client.on("message", async message => {
     var command = content[0].slice(config.prefix.length).toLowerCase();
     var args = content.slice(1);
 
-    const auditlog = client.channels.find('name', config.log);
-
     if (command == "config-log")
     {
         var newlog = args[0];
+
         if (!newlog) return respond(message.channel, `Log channel name was not provided.`)
+
         if (!message.guild.channels.exists('name', newlog)) return respond(message.channel, `Log channel with name ${newlog} does not exist.`)
+        
         config.log = newlog;
+        return respond(message.channel, `The new log channel name is ${newlog}.`)
     }
 
-    if (!auditlog) return respond(message.channel, `I cannot find an audit-log channel with name ${config.log}, please change the name of the audit log with !config-log command.`);
+    if(!client.channels.find('name', config.log)) return respond(message.channel, `I cannot find an audit-log channel with name ${config.log}, please change the name of the audit log with !config-log command.`);
 
+    const auditlog = client.channels.find('name', config.log);
     if(command == "kick")
     {
         var member = message.mentions.members.first();
